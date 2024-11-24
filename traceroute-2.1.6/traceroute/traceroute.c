@@ -624,6 +624,7 @@ static CLIF_argument arg_list[] = {
 static void do_it (void);
 
 int main (int argc, char *argv[]) {
+	printf("ioam modified traceroute(not yet)\n");
 
 	setlocale (LC_ALL, "");
 	setlocale (LC_NUMERIC, "C");	/*  avoid commas in msec printed  */
